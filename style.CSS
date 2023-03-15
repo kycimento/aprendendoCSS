@@ -1,24 +1,36 @@
 body {
-  background-color: azure;
+  background-color:beige;
+  /*background-image: url("bege.jpg");*/
 }
 
 h1 {
-  color: blueviolet;
+  color: rgb(255, 255, 255);
+  background-color: rgb(120, 80, 52);
+  border: 2px solid rgb(0, 0, 0);
 }
-
+/*class*/
 .center {
   text-align: center;
 }
 
 .fonte-rosa {
-  color: pink;
+  color: rgb(117, 87, 49);
+  border-style: solid;
+  border-width: 2px 2px 10px 2px;
+  border-color: rgb(70, 48, 19);
+  border-radius: 5px;
+  margin-top: 30px;
 }
 p {
-  color: gray;
+  color: rgb(117, 87, 49);
   text-align: center;
 }
-
+/*ID*/
 #para {
 font-family: verdana;
 font-size:20px;
+}
+
+h1 {
+  border-bottom: 6px solid rgb(69, 35, 17);
 }
